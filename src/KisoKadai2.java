@@ -36,10 +36,10 @@ public class KisoKadai2{
       }
       int in = ans - i;
       if (in < 0) {
-        System.out.println("小さいです");
+        System.out.println("答えより小さいです");
        }
        else if (in > 0) {
-        System.out.println("大きいです");
+        System.out.println("答えより大きいです");
        }
        else {
        System.out.println("正解!!");
