@@ -48,7 +48,7 @@ public class KisoKadai2{
      } catch (IOException e) {
       System.out.println(e);
      } catch (NumberFormatException e) {
-      System.err.println("半角数字で入力してください");
+      System.err.println("数字で入力してください");
      }
     }
     System.out.println("ゲームを続けますか？");
