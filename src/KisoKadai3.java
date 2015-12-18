@@ -13,7 +13,7 @@ public class KisoKadai3{
 
 		while(true){
 			System.out.println("場所を指定ください。指定がない場合、新規作成されます。");
-			System.out.println("例→C:\\eclipse\\pleiades\\workspace\\KisoKadai\\out.txt");
+			System.out.println("例→C:\\eclipse\\pleiades\\workspace\\KisoKadai1\\out.txt");
 			System.out.print("ここから入力できます:");
 			try{
 			BufferedReader br=new BufferedReader (new InputStreamReader(System.in));
