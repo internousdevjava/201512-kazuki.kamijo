@@ -90,19 +90,17 @@ public class KisoKadai3{
 			    	case 1:
 			    		System.out.println("フォルダ新規作成");
 
-			    		BufferedReader br3=new BufferedReader (new InputStreamReader(System.in));
-                        String f2=br3.readLine();
-                        File f = new File(f2);
 
-                        if (!f.exists()) {
-                            f.mkdirs();
+
+                            file.mkdirs();
+
                             System.out.println("フォルダを作成しました。");
-                        }break;
+                        break;
 			    	case 2:
 			    		System.out.println("テキスト新規作成");
-		            String filename = br.readLine();
 
-		            BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+
+		            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
 
 		            try {
 		                System.out.println("内容を入力 (ドットのみの行で終了):");
@@ -119,7 +117,7 @@ public class KisoKadai3{
 		                    writer.newLine();
 		                }
 
-		                System.out.println(filename + "に書き出しました。");
+		                System.out.println(file+ "に書き出しました。");
 		            }
 		            finally {
 		                writer.close();
